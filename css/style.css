@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  margin: 2rem;
+}
+
+.container {
+  margin: 0rem 15rem;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  position: sticky;
+  z-index: 1;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  top: 0;
+  height: 5rem;
+}
+
+h3 {
+  padding: 1.5rem 0rem;
+}
+li {
+  margin: 0.5rem 1.3rem;
+}
+
+.card {
+  margin: 2.5rem 0rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #fff;
+  border-radius: 0.7rem;
+  box-shadow: 0px 5px 20px rgb(66, 66, 66);
+}
+.code {
+  background-color: #d8d8d8;
+  border-radius: 0.7rem;
+}
+.hero {
+  margin: 2rem;
+}
+
+.titre {
+  width: 50%;
+}
+.row {
+  display: flex;
+}
+.positionH {
+  justify-content: right;
+
+  display: flex;
+  width: 50%;
+}
+.button {
+  text-decoration: none;
+  border: 0;
+  line-height: 2.5;
+  text-align: center;
+  font-size: 1rem;
+  height: 2.4rem;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(215, 3, 3);
+  width: 15rem;
+  min-width: 10rem;
+}
+h2 {
+  margin-bottom: 2rem;
+}
+
+.positionB {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.bas {
+  text-decoration: none;
+  border: 0;
+  line-height: 2.5;
+  font-size: 1rem;
+  height: 2.4rem;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(215, 3, 3);
+  width: 15rem;
+  min-width: 10rem;
+}
+
+/* partie js */
+.paragraphe1 {
+  display: none;
+}
+
+.paragraphe1bis {
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.paragraphe2 {
+  display: none;
+}
+
+.paragraphe2bis {
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.paragraphe3 {
+  display: none;
+}
+
+.paragraphe3bis {
+  display: block;
+  padding-bottom: 2rem;
+}
+/* partie responsive
+ */
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 0.7rem;
+  }
+
+  header .title {
+    font-size: 1.2rem;
+  }
+  h2,
+  h3 {
+    font-size: 0.85;
+  }
+  .row,
+  .card,
+  h3 {
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+  }
+
+  .titre {
+    width: 100%;
+  }
+  .positionH {
+    width: 100%;
+  }
+  .positionH {
+    display: flex;
+    justify-content: center;
+  }
+}
