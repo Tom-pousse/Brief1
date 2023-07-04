@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
 section {
   margin: 2rem;
 }
@@ -42,6 +45,7 @@ li {
 .code {
   background-color: #d8d8d8;
   border-radius: 0.7rem;
+  margin-top: 1rem;
 }
 .hero {
   margin: 2rem;
@@ -126,6 +130,11 @@ h2 {
 /* partie responsive
  */
 @media screen and (max-width: 900px) {
+  .container {
+    margin: 0rem 0rem;
+    padding: 1rem;
+  }
+
   body {
     font-size: 0.7rem;
   }
